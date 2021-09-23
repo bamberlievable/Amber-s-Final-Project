@@ -5,7 +5,25 @@ body, html{
   background-size: cover;
   height: 100%;
   position: relative;
-  text-align: center;
+   text-align: center;
+}
+
+.navbar2{
+  color: green;
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.links{
+  color: black;
+}
+
+.list{
+  color: green;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .bg-color{
@@ -19,9 +37,21 @@ body, html{
   color: white;
 }
 
-
+.welcomePar{
+  color: white;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 /*page 2*/
+
+.hydrotext{
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 18px;
+}
 .Hydronics-sec1{
   background-color: #F3FFC6;
   background-position: center;
@@ -47,14 +77,19 @@ body, html{
   position: relative;
 }
 
-.Hydropics {
+.Hydropics{
+  max-width: 100%;
+  height: auto;
+  max-height: 200px
+}
+/*.Hydropics {
   width: auto;
   height: auto;
   max-height: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 /*.Hydropics {
   width: 100%;
@@ -68,6 +103,17 @@ body, html{
 */
 
 /*page 3*/
+.kratky-h{
+  color: white;
+}
+
+.kratkytext{
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 18px;
+  color: white;
+}
 
 .dyiKratky{
   max-width: 100%;
@@ -89,7 +135,80 @@ body, html{
   width: 100%;
   height: 100%
 }
-/*page 4*/
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+/* ==============================================================
+  ===============================================================
+page 4*/
 .AboutMe {
   width: 100%;
 	height: 100%;
@@ -122,7 +241,12 @@ body, html{
   max-height: 3500px;
 }
 
-
+.feat-text{
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
 
 .Footer{
 	position: fixed;
